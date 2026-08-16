@@ -1,0 +1,10 @@
+Formulas used: 
+
+
+06/13/33 -> =DATUM(2000+RECHTS(D2;2); LINKS(D2;2); TEIL(D2; 4;2)) -> to 13.06.2033
+
+
+100 (Millionen) -> into 100.000.000 via -> =WENN(RECHTS(F2;1)="B";WERT(LINKS(F2;LÄNGE(F2)-1))*1000000000000; F2*1000000)
+
+
+

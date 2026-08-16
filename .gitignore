@@ -1,0 +1,18 @@
+﻿# R
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+
+# renv/packrat (Paket-Bibliotheken, koennen riesig sein)
+renv/library/
+packrat/lib*/
+
+# Secrets
+.Renviron
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
